@@ -1,0 +1,6 @@
+# data/: ignore everything except figures/ and results/
+data/**
+!data/figures/
+!data/figures/**
+!data/results/
+!data/results/**

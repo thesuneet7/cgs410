@@ -1,0 +1,614 @@
+[
+  {
+    "language": "English",
+    "n_real": 555648,
+    "n_baseline": 1804407,
+    "jsd_pos": {
+      "feature": "POS distribution",
+      "jsd": 0.012906
+    },
+    "jsd_arity": {
+      "feature": "Arity distribution",
+      "jsd": 0.013095
+    },
+    "jsd_subtree": {
+      "feature": "Subtree size distribution",
+      "jsd": 0.017307
+    },
+    "mwu_arity": {
+      "U": 1132729953.0,
+      "p_value": 1.3512882282072944e-231,
+      "p_value_fmt": "1.35e-231",
+      "significant": "True",
+      "alpha_corrected": 0.004166666666666667,
+      "effect_size_r": 0.0812,
+      "effect_label": "negligible",
+      "n_real": 50000,
+      "n_baseline": 50000,
+      "interpretation": "Real < Baseline (supports ICM hypothesis)"
+    },
+    "mwu_subtree": {
+      "U": 1131371999.0,
+      "p_value": 1.3643848076515044e-236,
+      "p_value_fmt": "1.36e-236",
+      "significant": "True",
+      "alpha_corrected": 0.004166666666666667,
+      "effect_size_r": 0.0822,
+      "effect_label": "negligible",
+      "n_real": 50000,
+      "n_baseline": 50000,
+      "interpretation": "Real < Baseline (supports ICM hypothesis)"
+    },
+    "head_rate_test": {
+      "head_rate_real": 0.2397,
+      "head_rate_baseline": 0.3217,
+      "difference": -0.0821,
+      "z_stat": -116.4713,
+      "p_value": 0.0,
+      "p_value_fmt": "0.00e+00",
+      "significant": "True",
+      "interpretation": "Real head-rate significantly lower than baseline (supports ICM)"
+    }
+  },
+  {
+    "language": "German",
+    "n_real": 765145,
+    "n_baseline": 2054317,
+    "jsd_pos": {
+      "feature": "POS distribution",
+      "jsd": 0.016461
+    },
+    "jsd_arity": {
+      "feature": "Arity distribution",
+      "jsd": 0.009884
+    },
+    "jsd_subtree": {
+      "feature": "Subtree size distribution",
+      "jsd": 0.013982
+    },
+    "mwu_arity": {
+      "U": 1174329476.5,
+      "p_value": 9.43601890098727e-93,
+      "p_value_fmt": "9.44e-93",
+      "significant": "True",
+      "alpha_corrected": 0.004166666666666667,
+      "effect_size_r": 0.0524,
+      "effect_label": "negligible",
+      "n_real": 50000,
+      "n_baseline": 50000,
+      "interpretation": "Real < Baseline (supports ICM hypothesis)"
+    },
+    "mwu_subtree": {
+      "U": 1172710293.0,
+      "p_value": 7.662526660199608e-97,
+      "p_value_fmt": "7.66e-97",
+      "significant": "True",
+      "alpha_corrected": 0.004166666666666667,
+      "effect_size_r": 0.0535,
+      "effect_label": "negligible",
+      "n_real": 50000,
+      "n_baseline": 50000,
+      "interpretation": "Real < Baseline (supports ICM hypothesis)"
+    },
+    "head_rate_test": {
+      "head_rate_real": 0.2804,
+      "head_rate_baseline": 0.326,
+      "difference": -0.0456,
+      "z_stat": -73.3321,
+      "p_value": 0.0,
+      "p_value_fmt": "0.00e+00",
+      "significant": "True",
+      "interpretation": "Real head-rate significantly lower than baseline (supports ICM)"
+    }
+  },
+  {
+    "language": "Spanish",
+    "n_real": 1000320,
+    "n_baseline": 4339539,
+    "jsd_pos": {
+      "feature": "POS distribution",
+      "jsd": 0.012529
+    },
+    "jsd_arity": {
+      "feature": "Arity distribution",
+      "jsd": 0.011229
+    },
+    "jsd_subtree": {
+      "feature": "Subtree size distribution",
+      "jsd": 0.015027
+    },
+    "mwu_arity": {
+      "U": 1127841875.5,
+      "p_value": 1.4676640883127433e-235,
+      "p_value_fmt": "1.47e-235",
+      "significant": "True",
+      "alpha_corrected": 0.004166666666666667,
+      "effect_size_r": 0.0846,
+      "effect_label": "negligible",
+      "n_real": 50000,
+      "n_baseline": 50000,
+      "interpretation": "Real < Baseline (supports ICM hypothesis)"
+    },
+    "mwu_subtree": {
+      "U": 1112908754.5,
+      "p_value": 4.496613754285519e-298,
+      "p_value_fmt": "4.50e-298",
+      "significant": "True",
+      "alpha_corrected": 0.004166666666666667,
+      "effect_size_r": 0.095,
+      "effect_label": "negligible",
+      "n_real": 50000,
+      "n_baseline": 50000,
+      "interpretation": "Real < Baseline (supports ICM hypothesis)"
+    },
+    "head_rate_test": {
+      "head_rate_real": 0.2627,
+      "head_rate_baseline": 0.3507,
+      "difference": -0.088,
+      "z_stat": -168.2157,
+      "p_value": 0.0,
+      "p_value_fmt": "0.00e+00",
+      "significant": "True",
+      "interpretation": "Real head-rate significantly lower than baseline (supports ICM)"
+    }
+  },
+  {
+    "language": "Russian",
+    "n_real": 3233296,
+    "n_baseline": 2462080,
+    "jsd_pos": {
+      "feature": "POS distribution",
+      "jsd": 0.011134
+    },
+    "jsd_arity": {
+      "feature": "Arity distribution",
+      "jsd": 0.010744
+    },
+    "jsd_subtree": {
+      "feature": "Subtree size distribution",
+      "jsd": 0.015992
+    },
+    "mwu_arity": {
+      "U": 1140165972.0,
+      "p_value": 3.803497362611818e-179,
+      "p_value_fmt": "3.80e-179",
+      "significant": "True",
+      "alpha_corrected": 0.004166666666666667,
+      "effect_size_r": 0.0761,
+      "effect_label": "negligible",
+      "n_real": 50000,
+      "n_baseline": 50000,
+      "interpretation": "Real < Baseline (supports ICM hypothesis)"
+    },
+    "mwu_subtree": {
+      "U": 1127870891.0,
+      "p_value": 3.060737234975898e-220,
+      "p_value_fmt": "3.06e-220",
+      "significant": "True",
+      "alpha_corrected": 0.004166666666666667,
+      "effect_size_r": 0.0846,
+      "effect_label": "negligible",
+      "n_real": 50000,
+      "n_baseline": 50000,
+      "interpretation": "Real < Baseline (supports ICM hypothesis)"
+    },
+    "head_rate_test": {
+      "head_rate_real": 0.3036,
+      "head_rate_baseline": 0.3778,
+      "difference": -0.0742,
+      "z_stat": -185.7358,
+      "p_value": 0.0,
+      "p_value_fmt": "0.00e+00",
+      "significant": "True",
+      "interpretation": "Real head-rate significantly lower than baseline (supports ICM)"
+    }
+  },
+  {
+    "language": "Arabic",
+    "n_real": 863226,
+    "n_baseline": 3111292,
+    "jsd_pos": {
+      "feature": "POS distribution",
+      "jsd": 0.004253
+    },
+    "jsd_arity": {
+      "feature": "Arity distribution",
+      "jsd": 0.004987
+    },
+    "jsd_subtree": {
+      "feature": "Subtree size distribution",
+      "jsd": 0.009658
+    },
+    "mwu_arity": {
+      "U": 1157339128.5,
+      "p_value": 7.693085859757381e-114,
+      "p_value_fmt": "7.69e-114",
+      "significant": "True",
+      "alpha_corrected": 0.004166666666666667,
+      "effect_size_r": 0.0642,
+      "effect_label": "negligible",
+      "n_real": 50000,
+      "n_baseline": 50000,
+      "interpretation": "Real < Baseline (supports ICM hypothesis)"
+    },
+    "mwu_subtree": {
+      "U": 1142210649.5,
+      "p_value": 9.616659667999893e-152,
+      "p_value_fmt": "9.62e-152",
+      "significant": "True",
+      "alpha_corrected": 0.004166666666666667,
+      "effect_size_r": 0.0747,
+      "effect_label": "negligible",
+      "n_real": 50000,
+      "n_baseline": 50000,
+      "interpretation": "Real < Baseline (supports ICM hypothesis)"
+    },
+    "head_rate_test": {
+      "head_rate_real": 0.3969,
+      "head_rate_baseline": 0.4576,
+      "difference": -0.0607,
+      "z_stat": -100.4768,
+      "p_value": 0.0,
+      "p_value_fmt": "0.00e+00",
+      "significant": "True",
+      "interpretation": "Real head-rate significantly lower than baseline (supports ICM)"
+    }
+  },
+  {
+    "language": "Hindi",
+    "n_real": 853811,
+    "n_baseline": 2629459,
+    "jsd_pos": {
+      "feature": "POS distribution",
+      "jsd": 0.014762
+    },
+    "jsd_arity": {
+      "feature": "Arity distribution",
+      "jsd": 0.00804
+    },
+    "jsd_subtree": {
+      "feature": "Subtree size distribution",
+      "jsd": 0.011986
+    },
+    "mwu_arity": {
+      "U": 1169577141.0,
+      "p_value": 1.0966162005739985e-100,
+      "p_value_fmt": "1.10e-100",
+      "significant": "True",
+      "alpha_corrected": 0.004166666666666667,
+      "effect_size_r": 0.0557,
+      "effect_label": "negligible",
+      "n_real": 50000,
+      "n_baseline": 50000,
+      "interpretation": "Real < Baseline (supports ICM hypothesis)"
+    },
+    "mwu_subtree": {
+      "U": 1170414027.5,
+      "p_value": 6.140261510838722e-99,
+      "p_value_fmt": "6.14e-99",
+      "significant": "True",
+      "alpha_corrected": 0.004166666666666667,
+      "effect_size_r": 0.0551,
+      "effect_label": "negligible",
+      "n_real": 50000,
+      "n_baseline": 50000,
+      "interpretation": "Real < Baseline (supports ICM hypothesis)"
+    },
+    "head_rate_test": {
+      "head_rate_real": 0.2946,
+      "head_rate_baseline": 0.3457,
+      "difference": -0.0511,
+      "z_stat": -86.9715,
+      "p_value": 0.0,
+      "p_value_fmt": "0.00e+00",
+      "significant": "True",
+      "interpretation": "Real head-rate significantly lower than baseline (supports ICM)"
+    }
+  },
+  {
+    "language": "Turkish",
+    "n_real": 85973,
+    "n_baseline": 249718,
+    "jsd_pos": {
+      "feature": "POS distribution",
+      "jsd": 0.009441
+    },
+    "jsd_arity": {
+      "feature": "Arity distribution",
+      "jsd": 0.013299
+    },
+    "jsd_subtree": {
+      "feature": "Subtree size distribution",
+      "jsd": 0.020953
+    },
+    "mwu_arity": {
+      "U": 1135469463.0,
+      "p_value": 3.1705395880644e-187,
+      "p_value_fmt": "3.17e-187",
+      "significant": "True",
+      "alpha_corrected": 0.004166666666666667,
+      "effect_size_r": 0.0793,
+      "effect_label": "negligible",
+      "n_real": 50000,
+      "n_baseline": 50000,
+      "interpretation": "Real < Baseline (supports ICM hypothesis)"
+    },
+    "mwu_subtree": {
+      "U": 1120703588.5,
+      "p_value": 1.2107513106801248e-235,
+      "p_value_fmt": "1.21e-235",
+      "significant": "True",
+      "alpha_corrected": 0.004166666666666667,
+      "effect_size_r": 0.0896,
+      "effect_label": "negligible",
+      "n_real": 50000,
+      "n_baseline": 50000,
+      "interpretation": "Real < Baseline (supports ICM hypothesis)"
+    },
+    "head_rate_test": {
+      "head_rate_real": 0.3341,
+      "head_rate_baseline": 0.4048,
+      "difference": -0.0707,
+      "z_stat": -36.716,
+      "p_value": 2.0320611137699085e-295,
+      "p_value_fmt": "2.03e-295",
+      "significant": "True",
+      "interpretation": "Real head-rate significantly lower than baseline (supports ICM)"
+    }
+  },
+  {
+    "language": "Finnish",
+    "n_real": 391985,
+    "n_baseline": 1045048,
+    "jsd_pos": {
+      "feature": "POS distribution",
+      "jsd": 0.013344
+    },
+    "jsd_arity": {
+      "feature": "Arity distribution",
+      "jsd": 0.010777
+    },
+    "jsd_subtree": {
+      "feature": "Subtree size distribution",
+      "jsd": 0.016723
+    },
+    "mwu_arity": {
+      "U": 1144829123.5,
+      "p_value": 2.1702035820320027e-169,
+      "p_value_fmt": "2.17e-169",
+      "significant": "True",
+      "alpha_corrected": 0.004166666666666667,
+      "effect_size_r": 0.0729,
+      "effect_label": "negligible",
+      "n_real": 50000,
+      "n_baseline": 50000,
+      "interpretation": "Real < Baseline (supports ICM hypothesis)"
+    },
+    "mwu_subtree": {
+      "U": 1142877098.0,
+      "p_value": 1.5210149807686166e-174,
+      "p_value_fmt": "1.52e-174",
+      "significant": "True",
+      "alpha_corrected": 0.004166666666666667,
+      "effect_size_r": 0.0742,
+      "effect_label": "negligible",
+      "n_real": 50000,
+      "n_baseline": 50000,
+      "interpretation": "Real < Baseline (supports ICM hypothesis)"
+    },
+    "head_rate_test": {
+      "head_rate_real": 0.2956,
+      "head_rate_baseline": 0.3625,
+      "difference": -0.0669,
+      "z_stat": -75.1795,
+      "p_value": 0.0,
+      "p_value_fmt": "0.00e+00",
+      "significant": "True",
+      "interpretation": "Real head-rate significantly lower than baseline (supports ICM)"
+    }
+  },
+  {
+    "language": "Japanese",
+    "n_real": 338184,
+    "n_baseline": 1802232,
+    "jsd_pos": {
+      "feature": "POS distribution",
+      "jsd": 0.015337
+    },
+    "jsd_arity": {
+      "feature": "Arity distribution",
+      "jsd": 0.018497
+    },
+    "jsd_subtree": {
+      "feature": "Subtree size distribution",
+      "jsd": 0.023226
+    },
+    "mwu_arity": {
+      "U": 1086895582.5,
+      "p_value": 0.0,
+      "p_value_fmt": "0.00e+00",
+      "significant": "True",
+      "alpha_corrected": 0.004166666666666667,
+      "effect_size_r": 0.113,
+      "effect_label": "small",
+      "n_real": 50000,
+      "n_baseline": 50000,
+      "interpretation": "Real < Baseline (supports ICM hypothesis)"
+    },
+    "mwu_subtree": {
+      "U": 1082743516.0,
+      "p_value": 0.0,
+      "p_value_fmt": "0.00e+00",
+      "significant": "True",
+      "alpha_corrected": 0.004166666666666667,
+      "effect_size_r": 0.1159,
+      "effect_label": "small",
+      "n_real": 50000,
+      "n_baseline": 50000,
+      "interpretation": "Real < Baseline (supports ICM hypothesis)"
+    },
+    "head_rate_test": {
+      "head_rate_real": 0.2178,
+      "head_rate_baseline": 0.3333,
+      "difference": -0.1155,
+      "z_stat": -132.6361,
+      "p_value": 0.0,
+      "p_value_fmt": "0.00e+00",
+      "significant": "True",
+      "interpretation": "Real head-rate significantly lower than baseline (supports ICM)"
+    }
+  },
+  {
+    "language": "Chinese",
+    "n_real": 353567,
+    "n_baseline": 1115940,
+    "jsd_pos": {
+      "feature": "POS distribution",
+      "jsd": 0.005447
+    },
+    "jsd_arity": {
+      "feature": "Arity distribution",
+      "jsd": 0.009137
+    },
+    "jsd_subtree": {
+      "feature": "Subtree size distribution",
+      "jsd": 0.012814
+    },
+    "mwu_arity": {
+      "U": 1166752999.0,
+      "p_value": 3.2315187518483126e-103,
+      "p_value_fmt": "3.23e-103",
+      "significant": "True",
+      "alpha_corrected": 0.004166666666666667,
+      "effect_size_r": 0.0577,
+      "effect_label": "negligible",
+      "n_real": 50000,
+      "n_baseline": 50000,
+      "interpretation": "Real < Baseline (supports ICM hypothesis)"
+    },
+    "mwu_subtree": {
+      "U": 1162799560.0,
+      "p_value": 3.070317158205276e-113,
+      "p_value_fmt": "3.07e-113",
+      "significant": "True",
+      "alpha_corrected": 0.004166666666666667,
+      "effect_size_r": 0.0604,
+      "effect_label": "negligible",
+      "n_real": 50000,
+      "n_baseline": 50000,
+      "interpretation": "Real < Baseline (supports ICM hypothesis)"
+    },
+    "head_rate_test": {
+      "head_rate_real": 0.3184,
+      "head_rate_baseline": 0.3733,
+      "difference": -0.0549,
+      "z_stat": -59.2299,
+      "p_value": 0.0,
+      "p_value_fmt": "0.00e+00",
+      "significant": "True",
+      "interpretation": "Real head-rate significantly lower than baseline (supports ICM)"
+    }
+  },
+  {
+    "language": "Basque",
+    "n_real": 215262,
+    "n_baseline": 553497,
+    "jsd_pos": {
+      "feature": "POS distribution",
+      "jsd": 0.011553
+    },
+    "jsd_arity": {
+      "feature": "Arity distribution",
+      "jsd": 0.011177
+    },
+    "jsd_subtree": {
+      "feature": "Subtree size distribution",
+      "jsd": 0.01473
+    },
+    "mwu_arity": {
+      "U": 1150060863.5,
+      "p_value": 2.4050616566580457e-151,
+      "p_value_fmt": "2.41e-151",
+      "significant": "True",
+      "alpha_corrected": 0.004166666666666667,
+      "effect_size_r": 0.0692,
+      "effect_label": "negligible",
+      "n_real": 50000,
+      "n_baseline": 50000,
+      "interpretation": "Real < Baseline (supports ICM hypothesis)"
+    },
+    "mwu_subtree": {
+      "U": 1144979451.5,
+      "p_value": 1.9410184585531284e-166,
+      "p_value_fmt": "1.94e-166",
+      "significant": "True",
+      "alpha_corrected": 0.004166666666666667,
+      "effect_size_r": 0.0728,
+      "effect_label": "negligible",
+      "n_real": 50000,
+      "n_baseline": 50000,
+      "interpretation": "Real < Baseline (supports ICM hypothesis)"
+    },
+    "head_rate_test": {
+      "head_rate_real": 0.3044,
+      "head_rate_baseline": 0.3649,
+      "difference": -0.0605,
+      "z_stat": -49.9675,
+      "p_value": 0.0,
+      "p_value_fmt": "0.00e+00",
+      "significant": "True",
+      "interpretation": "Real head-rate significantly lower than baseline (supports ICM)"
+    }
+  },
+  {
+    "language": "Ancient_Greek",
+    "n_real": 356467,
+    "n_baseline": 1161579,
+    "jsd_pos": {
+      "feature": "POS distribution",
+      "jsd": 0.015176
+    },
+    "jsd_arity": {
+      "feature": "Arity distribution",
+      "jsd": 0.019267
+    },
+    "jsd_subtree": {
+      "feature": "Subtree size distribution",
+      "jsd": 0.024298
+    },
+    "mwu_arity": {
+      "U": 1088047863.0,
+      "p_value": 0.0,
+      "p_value_fmt": "0.00e+00",
+      "significant": "True",
+      "alpha_corrected": 0.004166666666666667,
+      "effect_size_r": 0.1122,
+      "effect_label": "small",
+      "n_real": 50000,
+      "n_baseline": 50000,
+      "interpretation": "Real < Baseline (supports ICM hypothesis)"
+    },
+    "mwu_subtree": {
+      "U": 1081582521.5,
+      "p_value": 0.0,
+      "p_value_fmt": "0.00e+00",
+      "significant": "True",
+      "alpha_corrected": 0.004166666666666667,
+      "effect_size_r": 0.1167,
+      "effect_label": "small",
+      "n_real": 50000,
+      "n_baseline": 50000,
+      "interpretation": "Real < Baseline (supports ICM hypothesis)"
+    },
+    "head_rate_test": {
+      "head_rate_real": 0.2832,
+      "head_rate_baseline": 0.3899,
+      "difference": -0.1067,
+      "z_stat": -115.803,
+      "p_value": 0.0,
+      "p_value_fmt": "0.00e+00",
+      "significant": "True",
+      "interpretation": "Real head-rate significantly lower than baseline (supports ICM)"
+    }
+  }
+]

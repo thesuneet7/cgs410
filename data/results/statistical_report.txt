@@ -1,0 +1,100 @@
+========================================================================
+  STATISTICAL TEST RESULTS
+  Project: Empirical Distribution of Intervener Complexity
+========================================================================
+
+  Significance threshold : α = 0.05
+  Bonferroni correction  : α_corrected = 0.05/12 = 0.0042
+  MWU alternative        : H₁: real < baseline (one-tailed)
+  JSD range              : [0 = identical, 1 = maximally different]
+
+------------------------------------------------------------------------
+  1. HEAD-RATE COMPARISON (primary ICM metric)
+     Proportion of interveners that are syntactic heads (arity > 0)
+     Lower real head-rate = language minimises complex interveners
+
+  Language             Real  Baseline    Diff      p-value   Sig?
+  --------------------------------------------------------------
+  English             0.240     0.322  -0.082     0.00e+00  YES *
+  German              0.280     0.326  -0.046     0.00e+00  YES *
+  Spanish             0.263     0.351  -0.088     0.00e+00  YES *
+  Russian             0.304     0.378  -0.074     0.00e+00  YES *
+  Arabic              0.397     0.458  -0.061     0.00e+00  YES *
+  Hindi               0.295     0.346  -0.051     0.00e+00  YES *
+  Turkish             0.334     0.405  -0.071    2.03e-295  YES *
+  Finnish             0.296     0.362  -0.067     0.00e+00  YES *
+  Japanese            0.218     0.333  -0.116     0.00e+00  YES *
+  Chinese             0.318     0.373  -0.055     0.00e+00  YES *
+  Basque              0.304     0.365  -0.060     0.00e+00  YES *
+  Ancient_Greek       0.283     0.390  -0.107     0.00e+00  YES *
+
+------------------------------------------------------------------------
+  2. JENSEN-SHANNON DIVERGENCE (distributional difference)
+
+  Language           JSD(POS)   JSD(Arity)   JSD(Subtree)
+  ------------------------------------------------------
+  English              0.0129       0.0131         0.0173
+  German               0.0165       0.0099         0.0140
+  Spanish              0.0125       0.0112         0.0150
+  Russian              0.0111       0.0107         0.0160
+  Arabic               0.0043       0.0050         0.0097
+  Hindi                0.0148       0.0080         0.0120
+  Turkish              0.0094       0.0133         0.0210
+  Finnish              0.0133       0.0108         0.0167
+  Japanese             0.0153       0.0185         0.0232
+  Chinese              0.0054       0.0091         0.0128
+  Basque               0.0116       0.0112         0.0147
+  Ancient_Greek        0.0152       0.0193         0.0243
+
+------------------------------------------------------------------------
+  3. MANN-WHITNEY U TEST — ARITY
+     H₁: Real arity values tend to be LOWER than baseline
+
+  Language              p-value   Effect r   Effect size   Sig?
+  ------------------------------------------------------------
+  English             1.35e-231     0.0812    negligible  YES *
+  German               9.44e-93     0.0524    negligible  YES *
+  Spanish             1.47e-235     0.0846    negligible  YES *
+  Russian             3.80e-179     0.0761    negligible  YES *
+  Arabic              7.69e-114     0.0642    negligible  YES *
+  Hindi               1.10e-100     0.0557    negligible  YES *
+  Turkish             3.17e-187     0.0793    negligible  YES *
+  Finnish             2.17e-169     0.0729    negligible  YES *
+  Japanese             0.00e+00     0.1130         small  YES *
+  Chinese             3.23e-103     0.0577    negligible  YES *
+  Basque              2.41e-151     0.0692    negligible  YES *
+  Ancient_Greek        0.00e+00     0.1122         small  YES *
+
+------------------------------------------------------------------------
+  4. MANN-WHITNEY U TEST — SUBTREE SIZE
+     H₁: Real subtree sizes tend to be LOWER than baseline
+
+  Language              p-value   Effect r   Effect size   Sig?
+  ------------------------------------------------------------
+  English             1.36e-236     0.0822    negligible  YES *
+  German               7.66e-97     0.0535    negligible  YES *
+  Spanish             4.50e-298     0.0950    negligible  YES *
+  Russian             3.06e-220     0.0846    negligible  YES *
+  Arabic              9.62e-152     0.0747    negligible  YES *
+  Hindi                6.14e-99     0.0551    negligible  YES *
+  Turkish             1.21e-235     0.0896    negligible  YES *
+  Finnish             1.52e-174     0.0742    negligible  YES *
+  Japanese             0.00e+00     0.1159         small  YES *
+  Chinese             3.07e-113     0.0604    negligible  YES *
+  Basque              1.94e-166     0.0728    negligible  YES *
+  Ancient_Greek        0.00e+00     0.1167         small  YES *
+
+========================================================================
+  INTERPRETATION SUMMARY
+========================================================================
+
+  Languages with significantly lower head-rate than baseline:
+    ['English', 'German', 'Spanish', 'Russian', 'Arabic', 'Hindi', 'Turkish', 'Finnish', 'Japanese', 'Chinese', 'Basque', 'Ancient_Greek'] (12/12)
+
+  Languages with significantly lower arity than baseline:
+    ['English', 'German', 'Spanish', 'Russian', 'Arabic', 'Hindi', 'Turkish', 'Finnish', 'Japanese', 'Chinese', 'Basque', 'Ancient_Greek'] (12/12)
+
+  Languages with significantly lower subtree size than baseline:
+    ['English', 'German', 'Spanish', 'Russian', 'Arabic', 'Hindi', 'Turkish', 'Finnish', 'Japanese', 'Chinese', 'Basque', 'Ancient_Greek'] (12/12)
+
+  * Significance at Bonferroni-corrected α = 0.0042
