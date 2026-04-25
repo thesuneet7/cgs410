@@ -1,3 +1,5 @@
+.DS_Store
+
 # data/: ignore everything except figures/ and results/
 data/**
 !data/figures/
